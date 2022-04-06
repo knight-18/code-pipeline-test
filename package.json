@@ -1,26 +1,42 @@
 {
-  "name": "aws-codepipeline-demo",
-  "author": "Lucas Chen",
-  "license": "MIT",
+  "name": "covid19",
+  "version": "0.1.0",
   "private": true,
-  "devDependencies": {
-    "@babel/core": "~7.7.2",
-    "@babel/preset-env": "~7.7.1",
-    "@babel/preset-react": "~7.7.0",
-    "@testing-library/jest-dom": "~4.2.4",
-    "@testing-library/react": "~9.3.2",
-    "babel-jest": "~24.9.0",
-    "jest": "~24.9.0",
-    "parcel-bundler": "~1.12.4"
+  "dependencies": {
+    "@material-ui/core": "^4.9.10",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "chart.js": "^2.9.3",
+    "classnames": "^2.2.6",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.9.0",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.13.1",
+    "react-particles-js": "^3.0.3",
+    "react-scripts": "3.4.1"
   },
   "scripts": {
-    "build": "rm -rf dist && parcel build src/index.html",
-    "test": "jest",
-    "watch": "parcel src/index.html"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "dependencies": {
-    "react": ">= 16.3.0",
-    "react-dom": ">= 16.3.0",
-    "styled-components": "~4.4.1"
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
